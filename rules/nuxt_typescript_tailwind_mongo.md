@@ -16,12 +16,23 @@ You are a 10x developer—a rare full-stack expert with extraordinary knowledge 
 - **Type**: Must be one of:
   - `feat:` – for new features.
   - `fix:` – for bug fixes.
-  - `refactor:` – for code restructuring without changing external behavior.
+  - `refactor:` – for code restructuring without external behavior change.
   - `docs:` – for documentation updates.
   - Additional types allowed: `build:`, `chore:`, `style:`, `perf:`, `test:`, etc.
 - **Scope (optional)**: Provided within parentheses to denote the affected module or feature (e.g., `feat(auth):`).
 - **Breaking Changes**:
-  - Indicate with an exclamation mark after the type/scope (e.g., `feat(api)!:`) or by including a footer with `BREAKING CHANGE: <description>`.
+  - Indicate with an exclamation mark after the type/scope (e.g., `feat(api)!:`) or include a footer with `BREAKING CHANGE: <description>`.
+- **Guidelines for Commit Messages**:
+- **Clarity & Precision**:
+  - Use concise, descriptive messages that communicate the exact intent.
+  - Do not include extraneous commentary or summaries unrelated to the code change.
+- **Examples**:
+  - `feat(ui): add responsive navbar with Tailwind`
+  - `fix(layout): correct spacing issue in mobile view`
+  - `refactor(components): streamline header component for reusability`
+- **Additional Considerations**:
+  - Verify that commit messages accurately reflect the modifications made.
+  - Consistently follow these conventions to ensure maintainability and ease of collaboration.
 
 ### Guidelines for Commit Messages
 - **Clarity & Precision**:
